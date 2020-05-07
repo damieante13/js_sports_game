@@ -1,0 +1,34 @@
+/*Use what you know about HTML and CSS to make the page look better!
+Upon reset, display who won the game. */
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
+
+*{
+box-sizing: border-box;
+background-color: #FDB927;
+color: #552583;
+font-family: 'Playfair Display', serif; 
+}
+
+#bgContainer {
+display: flex;   
+background-image: url("../images/indoor-basketball-court.png");
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+}
+
+.hide {
+    display: none;
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+.clear {
+    clear: both;
+}
+#reset-container, h1 {
+    text-align: center;
+}
