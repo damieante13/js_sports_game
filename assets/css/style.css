@@ -4,31 +4,49 @@ Upon reset, display who won the game. */
 
 *{
 box-sizing: border-box;
-background-color: #FDB927;
-color: #552583;
-font-family: 'Playfair Display', serif; 
+font-family: 'Playfair Display', serif;
 }
 
-#bgContainer {
-display: flex;   
+body{
 background-image: url("../images/indoor-basketball-court.png");
 background-repeat: no-repeat;
-background-size: cover;
 background-position: center;
+background-size: cover;
+background-color: #FDB927;
+color: white;
 }
 
-.hide {
+#Container {
+display: flex;
+flex-direction: column;
+
+}
+
+#resetContainer{
+border: 1px solid #552583;
+background-color: #552583;   
+}
+
+
+/*.hide {
     display: none;
-}
+}*/
+
 .left {
-    float: left;
+    border: 1px solid #552583;
+    background-color: red;
 }
+
 .right {
-    float: right;
+    border: 1px solid #552583;
+    background-color: green;
 }
-.clear {
-    clear: both;
-}
+
+/*.clear {
+    border: 1px solid #552583;
+    background-color: #552583;
+}*/
+
 #reset-container, h1 {
     text-align: center;
 }
